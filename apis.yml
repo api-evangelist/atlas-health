@@ -1,25 +1,64 @@
 aid: atlas-health
+
 name: Atlas
-description: 'Atlas is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by felicis) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.prod.website-files.com/699fa348f09b2eb3496fc045/699fa571903821e0afd80084_e68ec2f6a1e69c2ebdfbeeb2d00d6847_Atlas_openGraph_thumb.png
+
+description: 'Atlas Health provides an AI‑powered platform that helps patients and health systems secure financial assistance for medical care. By matching patients to over 7,000 funding sources and automating eligibility, enrollment and claim workflows, Atlas improves access, reduces uncompensated care, and boosts revenue for providers. The service combines advanced AI with expert advocates to simplify complex financing, supporting hospitals, clinics and patients across the United States.'
+
 url: https://raw.githubusercontent.com/api-evangelist/atlas-health/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Healthcare
+- AI
+- PatientFinancing
+- Platform
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- felicis
+
 common:
+- type: Hosts
+  url: hosts/atlas-health-hosts.yml
+- type: Vendors
+  url: vendors/atlas-health-vendors.yml
+- type: DomainSecurity
+  url: security/atlas-health-domain-security.yml
 - type: Website
   url: https://atlas.health
+- type: Documentation
+  url: https://atlas.health/resources
+- type: Blog
+  url: https://atlas.health/blog
+- type: Support
+  url: https://atlas.health/contact
+- type: PrivacyPolicy
+  url: https://atlas.health/privacy
+
+apis: []
+
+x-backed-by:
+- felicis
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

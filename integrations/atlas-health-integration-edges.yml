@@ -1,0 +1,18 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/atlas-health/integrations
+- https://zapier.com/apps/atlas/integrations
+- https://n8n.io/integrations/atlas-health/
+- https://composio.dev/toolkits/atlas-health
+- https://monid.ai/tools/atlas-health
+checked:
+- https://composio.dev/toolkits/atlas-health
+- https://monid.ai/tools/atlas-health
+- https://n8n.io/integrations/atlas-health/
+- https://zapier.com/apps/atlas-health/integrations
+- https://zapier.com/apps/atlas/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
